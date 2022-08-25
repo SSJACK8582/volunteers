@@ -1,0 +1,111 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "义工服务",
+			"enablePullDownRefresh": true
+		}
+	}, {
+		"path": "pages/activity/index",
+		"style": {
+			"navigationBarTitleText": "义工服务",
+			"enablePullDownRefresh": true
+		}
+	}, {
+		"path": "pages/message/index",
+		"style": {
+			"navigationBarTitleText": "义工服务",
+			"enablePullDownRefresh": true
+		}
+	}, {
+		"path": "pages/my/index",
+		"style": {
+			"navigationBarTitleText": "义工服务",
+			"enablePullDownRefresh": true
+		}
+	}, {
+		"path": "pages/index/detail",
+		"style": {
+			"navigationBarTitleText": "详情",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/activity/detail",
+		"style": {
+			"navigationBarTitleText": "详情",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/activity/comment",
+		"style": {
+			"navigationBarTitleText": "评论",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/my/enroll",
+		"style": {
+			"navigationBarTitleText": "我的报名",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/my/info",
+		"style": {
+			"navigationBarTitleText": "个人信息",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/my/password",
+		"style": {
+			"navigationBarTitleText": "修改密码",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/login",
+		"style": {
+			"navigationBarTitleText": "义工服务报名系统",
+			"enablePullDownRefresh": false
+		}
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#F8F8F8"
+		}
+	},
+	"tabBar": {
+		"color": "black",
+		"selectedColor": "deepskyblue",
+		"backgroundColor": "white",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "./static/home.png",
+				"selectedIconPath": "static/home-fill.png"
+			},
+			{
+				"pagePath": "pages/activity/index",
+				"text": "活动",
+				"iconPath": "static/activity.png",
+				"selectedIconPath": "static/activity_fill.png"
+			},
+			{
+				"pagePath": "pages/message/index",
+				"text": "消息",
+				"iconPath": "static/message.png",
+				"selectedIconPath": "static/message_fill.png"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"text": "我的",
+				"iconPath": "static/mine.png",
+				"selectedIconPath": "static/mine2.png"
+			}
+		]
+	}
+}
